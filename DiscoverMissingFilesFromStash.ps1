@@ -1,6 +1,9 @@
 <# 
 AUTHOR
     JuiceBox
+    
+URL
+    https://github.com/ALonelyJuicebox/DiscoverMissingFilesFromStash
 
 DESCRIPTION
     This script takes a provided directory and checks to see if you have missing media from your Stash database for that directory
@@ -16,7 +19,7 @@ REQUIREMENTS
 
     clear-host
     if ($PathToStashDatabase -eq "C:\REPLACEME\Stash\db\stash-go.sqlite"){
-        read-host "Error: You need to modify line 15 of this script and enter the path to your Stash Database file. Press [Enter] to exit"
+        read-host "Error: You need to modify line 18 of this script and enter the path to your Stash Database file. Press [Enter] to exit"
         exit
     }
     write-host "This script takes a provided directory and checks to see if you have missing media from your Stash database for that directory."
