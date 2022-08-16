@@ -10,5 +10,5 @@ This script takes a provided directory and checks to see if you have missing med
 # How to Run
 - If you aren't on Windows (or are on anything older than Windows 10), install Powershell Core, available for Linux and macOS!
 - Ensure you've installed PSSQLite as described in the section above
-- Modify line 15 of the script so that the path to your Stash database is correct
+- Modify line 18 of the script so that the path to your Stash database is correct
 - Run the script
